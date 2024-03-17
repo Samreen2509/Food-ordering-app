@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    box-sizing: border-box;
+}
+.header{
+    border-bottom: 1px solid rgb(137, 133, 133);
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    width: 70px;
+    margin: 10px;
+
+}
+.Menu-list{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 15px;
+}
+.Menu-list >li{
+    font-size: 25px;
+    font-weight: 100;
+}
+.search-btn{
+    padding: 10px;
+}
+.cards-container{
+    margin-top: 20px;
+    margin-left: 10px;
+    border: 1px solid gray;
+    width: 200px;
+    height: 250px;
+}
+.res-cointainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media (max-width:600px) {
+    
+}
+@media (min-width: 600px) {
+    
+}
+
+@media (min-width:768px) {
+    
+}
+@media (min-width:992px)  {
+    
+}
+
+@media (min-width:1200px) {
+    
+}
