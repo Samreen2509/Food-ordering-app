@@ -33,11 +33,18 @@ html,body{
 .cards-container{
     margin-top: 20px;
     margin-left: 10px;
-    border: 1px solid gray;
-    width: 220px;
-    height: 290px;
-    border-radius: 1rem;
+   
+    width: 240px;
     
+    
+    
+}
+.cards-container:hover{
+    border: 2px solid gray;
+}
+.card-img{
+    width: 100%;
+    height: 50%;
 }
 .res-cointainer{
     display: flex;
