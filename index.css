@@ -8,14 +8,11 @@ html,body{
 .header{
     border-bottom: 1px solid rgb(137, 133, 133);
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between; 
 }
-
 .logo{
     width: 70px;
     margin: 10px;
-
 }
 .Menu-list{
     display: flex;
@@ -33,11 +30,8 @@ html,body{
 .cards-container{
     margin-top: 20px;
     margin-left: 10px;
-   
-    width: 240px;
-    
-    
-    
+    width: 200px; 
+    background-color: rgb(233, 227, 227);  
 }
 .cards-container:hover{
     border: 2px solid gray;
@@ -51,6 +45,7 @@ html,body{
     flex-wrap: wrap;
     justify-content: center;
 }
+
 @media (max-width:600px) {
     
 }
