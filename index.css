@@ -45,7 +45,21 @@ html,body{
     flex-wrap: wrap;
     justify-content: center;
 }
-
+.shimmer-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.shimmer-card{
+    margin: 20px;
+    width: 200px;
+    height: 300px;
+    background-color: rgb(233, 227, 227);
+}
+.login{
+    width: 80px;
+    height: 35px;
+    font-size: 18px;
+}
 @media (max-width:600px) {
     
 }
